@@ -1,0 +1,5 @@
+# Ignore Everything
+.vscode
+src/*
+# But not .cpp
+!*.cpp

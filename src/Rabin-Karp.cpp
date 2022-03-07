@@ -32,7 +32,7 @@ void findString(string ws, string ps) {
       }
       if (isFind) {
         cout << wsHash << " " << psHash << endl;
-        printf("% 번째서 발견\n", i + 1);
+        printf("Found in %d \n", i + 1);
       }
     }
   }
