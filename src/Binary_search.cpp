@@ -1,5 +1,6 @@
 // Algorithm Analysis
 // 이분 탐색 알고리즘 (Binary search)
+// O(정점 수 * 간선 수)
 
 #include <iostream>
 #define MAX 10
