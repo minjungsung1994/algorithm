@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <algorithm>
 #define MAX 10001
 
 using namespace std;
@@ -53,7 +54,7 @@ int main(void) {
   printf("%d\n", SCC.size());
   sort(SCC.begin(), SCC.end());
   for(int i = 0; i < SCC.size(); i++) {
-    for(int j = 0; j < SCC[i].size(); j++) {
+    for(int j = 0; j < SCC.size(); j++) {
       printf("%d", SCC[i][j]);
     }
     printf("-1\n");
