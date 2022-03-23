@@ -32,7 +32,7 @@ int dfs(int x) {
       if(t == x) break;
     }
 
-    sort(scc.begin(, scc.end()));
+    sort(scc.begin(), scc.end());
     SCC.push_back(scc);
   }
   return result;
